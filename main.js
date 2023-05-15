@@ -13,16 +13,16 @@ class Intro extends Phaser.Scene{
         super('Intro')
     }
     preload() {
-        this.load.image('basketball', 'assets/Basketball.png');
+        this.load.image('bbb', 'assets/Basketball.png');
     }
  
     create() {
-        let basket = this.add.sprite(0,500, 'basketball');
-        basket.setOrigin(0.5);
+        let b = this.add.sprite(0,500, 'bbb');
+        b.setOrigin(0.5);
 
-        basket.x = -50;
+        b.x = -50;
         this.tweens.add({
-            targets: basket,
+            targets: b,
             x: this.cameras.main.centerX,
             y: 300,
             duration: 1000,
@@ -259,7 +259,7 @@ let config = ({
     },
     backgroundColor: '#324F17',
     // Intro, Level1, Level2, Level3, Summary, Outro
-    scene: [Intro],
+    scene: [Intro, Level1, Level2, Level3, Summary, Outro],
 });
 
 let game = new Phaser.Game(config);
