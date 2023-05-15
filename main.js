@@ -13,7 +13,7 @@ class Intro extends Phaser.Scene{
         super('Intro')
     }
     preload() {
-        this.load.image('basketball', 'assets/basketball.png');
+        this.load.image('basketball', 'assets/Basketball.png');
     }
  
     create() {
@@ -213,7 +213,7 @@ class Outro extends Phaser.Scene{
         super('Outro')
     }
     preload() {
-        this.load.image('basket', 'assets/basketball.png');
+        this.load.image('basket', 'assets/Basketball.png');
     }
 
     create(data) {
