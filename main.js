@@ -255,7 +255,7 @@ let config = ({
     },
     physics: {
         default: 'matter',
-        matter: { debug: true }
+        matter: { debug: false }
     },
     backgroundColor: '#324F17',
     // Intro, Level1, Level2, Level3, Summary, Outro
