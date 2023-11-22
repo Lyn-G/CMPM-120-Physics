@@ -20,3 +20,4 @@ I drew all my images with this [free online website](https://sketchpad.app/en/).
 3. arrow.png <br><br>
 
 ## Link to play game.
+[https://lyn-g.github.io/CMPM-120-Physics/](https://lyn-g.github.io/CMPM-120-Physics/)
